@@ -1,0 +1,19 @@
+#social-signin-links,
+#existing-customer{
+	a{
+		width: 100%;
+	    margin-bottom: 5px;
+		i.fa{
+			margin-right:10px;
+		}
+	}
+}
+
+#existing-customer{
+	a{
+		width: 200px;
+		&:hover{
+			text-decoration:none;
+		}
+	}
+}

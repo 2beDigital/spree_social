@@ -1,13 +1,13 @@
----
-es-MX:
+es:
   devise:
     omniauth_callbacks:
-      success: "Estás sesión con tu cuenta de %{kind}."
+      success: "Has iniciado sesión con tu cuenta de %{kind}."
   spree:
+    user_uid: " Identificador de usuario: "
     user_was_not_valid: "El usuario no fue válido."
     add_another_service: 'Añadir otro servicio para inicio de sesión:'
     authentications:
-      destroy: 'Método de autenticación destruido exitosamente.'
+      destroy: 'Método de autenticación destruido satisfactoriamente.'
     back_to_authentication_methods_list: "Volver a la lista de métodos de autenticación"
     edit_social_method: 'Editando metodo de autenticación'
     new_social_method: 'Nuevo método de autenticación'

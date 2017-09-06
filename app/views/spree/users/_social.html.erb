@@ -7,12 +7,10 @@
       <div class="authentications">
         <% for user_authentication in spree_current_user.user_authentications %>
           <div class="authentication">
-            <div class="provider columns two">
-              <%= content_tag(:i, '', class: "icon-spree-#{user_authentication.provider.to_url}-circled columns") %>
-              <%= user_authentication.provider %>
-            </div>
-            <div class="uid columns two"><%= user_authentication.uid %></div>
-            <%= link_to 'X', user_authentication, data: { confirm: "#{Spree.t(:remove_authentication_option_confirmation)}" }, method: :delete, class: 'remove' %>
+            <%= link_to(content_tag(:i, '', class: "fa fa-#{user_authentication.provider.to_url}-square fa-lg") + content_tag(:span, user_authentication.provider.to_url), '#', title: user_authentication.provider.to_url, class: "btn #{user_authentication.provider.to_url}") %>
+              <%= content_tag(:strong, Spree.t(:user_uid)) %>
+              <%= user_authentication.uid %>
+              <%= link_to('', user_authentication, data: { confirm: "#{Spree.t(:remove_authentication_option_confirmation)}" } , method: :delete, class: "fa fa-trash fa-lg" ) %>
           </div>
         <% end %>
         <div class="clear"></div>

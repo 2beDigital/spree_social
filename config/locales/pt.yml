@@ -4,6 +4,7 @@ pt-BR:
     omniauth_callbacks:
       success: "Você está logado agora com a sua conta do %{kind}."
   spree:
+    user_uid: ' ID do usuário: '
     user_was_not_valid: "Usuário não era válido."
     add_another_service: "Adicione outro serviço para se logar:"
     authentications:
@@ -15,7 +16,7 @@ pt-BR:
     one_more_step: 'Um passo apenas para completar seu registro pelo %{kind}'
     remove_authentication_option_confirmation: "Você tem certeza que deseja remover este método de autenticação ?"
     sign_into_account: "Você pode acessar esta conta usando:"
-    sign_in_through_one_of_these_services: "Acesse através de um destes serviços:"
+    sign_in_with_social_networks: "Acesse através de um destes serviços:"
     social_api_key: "Chave API"
     social_api_secret: "Segredo API"
     social_authentication_methods: "Métodos de Autenticação Social"

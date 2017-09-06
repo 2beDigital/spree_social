@@ -4,6 +4,7 @@ fr:
     omniauth_callbacks:
       success: "Vous êtes maintenant connecté à votre compte %{kind}."
   spree:
+    user_uid: " ID utilisateur: "
     user_was_not_valid: "L'utilisateur n'était pas valide."
     add_another_service: "Ajouter un autre service d'identification:"
     authentications:
@@ -15,7 +16,7 @@ fr:
     one_more_step: "Encore une étape avant de terminer l'identification %{kind}"
     remove_authentication_option_confirmation: "Etes-vous sûr(e) de vouloir supprimer ce service d'identification?"
     sign_into_account: "Vous pouvez vous connecter à ce compte en utilisant:"
-    sign_in_through_one_of_these_services: "Identifiez-vous avec l'un de ces services:"
+    sign_in_with_social_networks: "Identifiez-vous avec l'un de ces services:"
     social_api_key: "Clé API"
     social_api_secret: "API Secret"
     social_authentication_methods: "Services d'identification via Réseau Sociaux"

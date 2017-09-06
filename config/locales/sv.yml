@@ -15,7 +15,7 @@ sv:
     one_more_step: "Ett steg från att slutföra din registrering från %{kind}"
     remove_authentication_option_confirmation: "Är du säker på att du vill ta bort denna autentiseringsmetod?"
     sign_into_account: "Du kan logga in på detta konto med hjälp av:"
-    sign_in_through_one_of_these_services: "Logga in genom en av dessa tjänster:"
+    sign_in_with_social_networks: "Logga in genom en av dessa tjänster:"
     social_api_key: "API-nyckel"
     social_api_secret: "API lösenord"
     social_authentication_methods: "Sociala autentiseringsmetoder"
